@@ -1,0 +1,35 @@
+/*! jQuery UI - v1.11.4 - 2015-03-17
+* http://jqueryui.com
+* Includes: core.css, tooltip.css, theme.css
+* Copyright 2015 jQuery Foundation and other contributors; Licensed MIT */
+
+/* Layout helpers
+----------------------------------*/
+.ui-helper-hidden {
+	display: none;
+}
+.ui-helper-hidden-accessible {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+
+/* Overlays */
+.ui-tooltip {
+	padding: 8px;
+	position: absolute;
+	z-index: 9999;
+	max-width: 300px;
+	-webkit-box-shadow: 0 0 3px #aaa;
+	box-shadow: 0 0 3px #aaa;
+    background: #000;
+    color: #fff !important;
+}
+body .ui-tooltip {
+	border-width: 2px;
+}
